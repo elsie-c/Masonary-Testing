@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ImageMasonry from 'react-image-masonry';
 
-class Demo1 extends Component {
+class Intro extends Component {
     render() {
         // Get an array of images  
         let images = [];
@@ -24,7 +24,11 @@ class Demo1 extends Component {
                         Colors are populated top down in a masonary order, with colors loading faster getting priority.
                         This effect leaves users with <a className="emphasis">less loading time</a> and <a className="emphasis">more efficient UI experience</a>. 
                     </p>
-                    <p>credit to <a className="linkEffect" href="https://christikaes.github.io/">@christikaes</a></p>
+                    <div className="resourceCredit">
+                        <p className="singleLine">credit to <a className="linkEffect" href="https://christikaes.github.io/">@christikaes</a></p>
+                        <p className="singleLine">resource from <a className="linkEffect" href="https://dummyimage.com/">dummyImage</a></p>
+                    </div>
+                    
                 </div>
 
                 <ImageMasonry
@@ -37,4 +41,4 @@ class Demo1 extends Component {
     }
 }
 
-export default Demo1;
+export default Intro;

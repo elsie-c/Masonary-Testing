@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link, Switch, Route } from 'react-router-dom'
 
-import Demo1 from './Demo1';
-import Demo2 from './Demo2';
+import Intro from './Intro';
+import Elsiemade from './Elsiemade';
 import './App.css';
 
 const App = () => {
@@ -12,17 +12,18 @@ const App = () => {
       <h1>
       brickade
       </h1>
+
+      <p className="introword">Click below to start</p>
       <nav>
         <ul>
-          <li><Link to={process.env.PUBLIC_URL + '/demo1'}>intro</Link></li>
-          <li><Link to={process.env.PUBLIC_URL + '/demo2'}>elsiemade</Link></li>
+          <li><Link to={process.env.PUBLIC_URL + '/intro'}>intro</Link></li>
+          <li><Link to={process.env.PUBLIC_URL + '/elsiemade'}>elsiemade</Link></li>
         </ul>
       </nav>
     </header>
     <Switch>
-      <Route path={process.env.PUBLIC_URL + '/demo1'} component={Demo1}/>
-      <Route path={process.env.PUBLIC_URL + '/demo2'} component={Demo2}/>
-    
+      <Route path={process.env.PUBLIC_URL + '/intro'} component={Intro}/>
+      <Route path={process.env.PUBLIC_URL + '/elsiemade'} component={Elsiemade}/>
     </Switch>
   </div>
   )

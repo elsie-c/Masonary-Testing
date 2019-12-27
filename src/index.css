@@ -3,6 +3,14 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'IBM Plex Mono'
+  font-family: 'IBM Plex Mono';
+  background-color:black;
 }
 
+.introword {
+  text-align: center;
+  font-size: 10px;
+  margin:0;
+  padding:0;
+  font-family: 'IBM Plex Mono';
+}

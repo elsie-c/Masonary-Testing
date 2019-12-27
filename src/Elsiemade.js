@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ImageMasonry from 'react-image-masonry';
 
-class Demo2 extends Component {
+class Elsiemade extends Component {
     state = {
         numCols: 3,
         width: "100%"
@@ -15,7 +15,6 @@ class Demo2 extends Component {
             images.push(
                 `../image/image${iphoto}.jpg`);
         }
-    
         return(
             <div>
                 <div className="content">
@@ -47,4 +46,4 @@ class Demo2 extends Component {
     }
 }
 
-export default Demo2;
+export default Elsiemade;
