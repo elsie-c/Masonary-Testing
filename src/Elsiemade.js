@@ -9,7 +9,7 @@ class Elsiemade extends Component {
     }
     
     render() {
-        // Get an array of images  
+        //! Get an array of photo retrived from local file; 
         let images = [];
         for(let i = 0; i< 250; i++) {
             const iphoto = i + Math.floor(Math.random()*0.5)*15;
@@ -36,7 +36,7 @@ class Elsiemade extends Component {
                             onChange={(event) => {this.setState({width: event.target.value})}} />
                         </div>
                 </div>
-           
+           //! ImageMasonry
                 <ImageMasonry
                     imageUrls={images}
                     numCols={this.state.numCols}
