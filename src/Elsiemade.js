@@ -36,7 +36,7 @@ class Elsiemade extends Component {
                             onChange={(event) => {this.setState({width: event.target.value})}} />
                         </div>
                 </div>
-           //! ImageMasonry
+          
                 <ImageMasonry
                     imageUrls={images}
                     numCols={this.state.numCols}
