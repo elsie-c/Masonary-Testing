@@ -16,13 +16,13 @@ const App = () => {
       <p className="introword">Click below to start</p>
       <nav>
         <ul>
-          <li><Link to={process.env.PUBLIC_URL + '/intro'}>intro</Link></li>
+          <li><Link to={process.env.PUBLIC_URL + '/'}>intro</Link></li>
           <li><Link to={process.env.PUBLIC_URL + '/elsiemade'}>elsiemade</Link></li>
         </ul>
       </nav>
     </header>
     <Switch>
-      <Route path={process.env.PUBLIC_URL + '/intro'} component={Intro}/>
+      <Route exact path={process.env.PUBLIC_URL + '/'} component={Intro}/>
       <Route path={process.env.PUBLIC_URL + '/elsiemade'} component={Elsiemade}/>
     </Switch>
   </div>
