@@ -26,7 +26,6 @@ class Intro extends Component {
                     </p>
                     <div className="resourceCredit">
                         <p className="singleLine">credit to <a className="linkEffect" href="https://christikaes.github.io/">@christikaes</a></p>
-                        <p className="singleLine">resource from <a className="linkEffect" href="https://dummyimage.com/">dummyImage</a></p>
                         <p className="singleLine">follow me <a className="linkEffect" href="https://github.com/elsie-c">@elsie-c</a></p>
                     </div>
                     
