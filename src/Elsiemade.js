@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ImageMasonry from 'react-image-masonry';
 
+
 class Elsiemade extends Component {
     state = {
         numCols: 3,
@@ -35,6 +36,7 @@ class Elsiemade extends Component {
                             onChange={(event) => {this.setState({width: event.target.value})}} />
                         </div>
                 </div>
+           
                 <ImageMasonry
                     imageUrls={images}
                     numCols={this.state.numCols}
