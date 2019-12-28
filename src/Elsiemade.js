@@ -7,14 +7,14 @@ class Elsiemade extends Component {
         numCols: 3,
         width: "100%"
     }
-    
+
     render() {
         //! Get an array of photo retrived from local file; 
         let images = [];
         for(let i = 0; i< 250; i++) {
             const iphoto = i + Math.floor(Math.random()*0.5)*15;
             images.push(
-                `..build/image/image${iphoto}.jpg`);
+                `.../image/image${iphoto}.jpg`);
         }
         return(
             <div>
