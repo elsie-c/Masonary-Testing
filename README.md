@@ -1,6 +1,6 @@
 
 
-## Brickade ([demo](https://elsie-c.github.io/brickade/elsiemade))
+## Brickade ([demo](https://elsie-c.github.io/brickade))
 
 <a href="https://imgflip.com/gif/3kmk3t"><img src="https://i.imgflip.com/3kmk3t.gif" title="made at imgflip.com"/></a>
 <br>
