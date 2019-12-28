@@ -25,10 +25,9 @@ class Intro extends Component {
                         This effect leaves users with <a className="emphasis">less loading time</a> and <a className="emphasis">more efficient user experience</a>. 
                     </p>
                     <div className="resourceCredit">
-                        <p className="singleLine">credit to <a className="linkEffect" href="https://christikaes.github.io/">@christikaes</a></p>
+                        <p className="singleLine">credit to <a className="linkEffect" href="https://github.com/christikaes">@christikaes</a></p>
                         <p className="singleLine">follow me <a className="linkEffect" href="https://github.com/elsie-c">@elsie-c</a></p>
                     </div>
-                    
                 </div>
 
                 <ImageMasonry
