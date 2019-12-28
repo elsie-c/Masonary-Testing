@@ -14,7 +14,7 @@ class Elsiemade extends Component {
         for(let i = 0; i< 250; i++) {
             const iphoto = i + Math.floor(Math.random()*0.5)*15;
             images.push(
-                `../image/image${iphoto}.jpg`);
+                `..build/image/image${iphoto}.jpg`);
         }
         return(
             <div>
