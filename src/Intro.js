@@ -20,7 +20,7 @@ class Intro extends Component {
             <div>
                 <div className="content">
                     <p>
-                        [Masonry] is a <a className="linkEffect" href="https://css-tricks.com/piecing-together-approaches-for-a-css-masonry-layout/"> JS cascading grid layout</a>. It places elements in optimal position based on space availability.
+                        Masonry is a <a className="linkEffect" href="https://css-tricks.com/piecing-together-approaches-for-a-css-masonry-layout/"> JS cascading grid layout</a>. It places elements in optimal position based on space availability.
                         Colors are populated top down in a masonary order, with colors loading faster getting priority.
                         This effect leaves users with <a className="emphasis">less loading time</a> and <a className="emphasis">more efficient user experience</a>. 
                     </p>
