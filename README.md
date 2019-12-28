@@ -5,7 +5,10 @@
 <a href="https://imgflip.com/gif/3kmk3t"><img src="https://i.imgflip.com/3kmk3t.gif" title="made at imgflip.com"/></a>
 <br>
 <br>
-Brickade is a multi-platform masonry photo grid for better UI/UX. It places elements in optimal position based on space availability. This effect leaves users with less loading time and more efficient user experience. In this project, [react-image-masonry NPM package](https://https://github.com/christikaes/react-image-masonry) was used to create a brick wall-like photo grid to display my favorite moments of trips I've experienced. <p>This project was bootstrapped with [create react app](https://github.com/facebookincubator/create-react-app).
+Brickade is a multi-platform masonry photo grid for better UI/UX. It places elements in optimal position based on space availability. This effect leaves users with less loading time and more efficient user experience. 
+<br>
+<br>
+In this project, [react-image-masonry NPM package](https://https://github.com/christikaes/react-image-masonry) was used to create a brick wall-like photo grid to display my favorite moments of trips I've experienced. <p>This project was bootstrapped with [create react app](https://github.com/facebookincubator/create-react-app).
 
 ## Installation
 you can download the NPM package using
