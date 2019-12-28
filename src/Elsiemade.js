@@ -9,7 +9,7 @@ class Elsiemade extends Component {
     }
 
     render() {
-        //! Get an array of photo retrived from local file; 
+        //! Get an array of photo retrived from local file; image push DIR for local files - `../image/image${}.jpg with 2 periods instead of 1 
         let images = [];
         for(let i = 0; i< 250; i++) {
             const iphoto = i + Math.floor(Math.random()*0.5)*15;
