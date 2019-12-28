@@ -1,8 +1,8 @@
 {
   "name": "brickade-elsie-c",
-  "homepage": "https://elsie-c.github.io/brickade",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://elsie-c.github.io/brickade/",
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
